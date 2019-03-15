@@ -1,0 +1,112 @@
+.slider  
+    margin: 0
+    padding: 0
+    position: relative
+    &__item
+        background-size: cover
+        background-position: center
+        list-style-type: none
+    &__content
+        margin: 0 auto
+        width: 700px
+        padding: 213px 0 290px
+    &__title
+        font-size: 48px 
+        font-weight: 300
+        text-decoration: none
+        text-transform: uppercase
+        letter-spacing: 4.7px
+        text-align: center
+        color: $bgColorLight
+        background-color: #000
+    &__text
+        font-size: 18px 
+        font-weight: 300
+        text-decoration: none
+        text-transform: uppercase
+        letter-spacing: 7.2px
+        text-align: center
+        padding: 0px
+        margin: -15px
+
+    .owl-dots 
+        position: absolute
+        bottom: 55px
+        z-index: 10
+        left: 50%
+        transform: translate(-50%, 0)
+    .owl-dot 
+        background-color:  $bgColorLight !important
+        border: 5px solid $bgColorLight !important
+        height: 15px
+        width: 15px
+        border-radius: 50px
+        margin-right: 20px
+        &:focus
+            outline: none
+
+    .owl-dot.active 
+        border: 5px solid $additionalTextColor !important
+    .owl-next
+        position: absolute
+        bottom: 48%
+        right: 80px
+        border: 1px solid #f9f9f9!important
+        border-radius: 20px
+        width: 40px
+        height: 40px
+        &::before
+            content: ""
+            width: 15px
+            height: 15px
+            position: absolute
+            transform: rotate(40deg)
+            top: 10px
+            left: 8px
+            border-top: 1px solid #f9f9f9 !important
+            border-right: 1px solid #f9f9f9 !important
+        
+    
+        &:hover
+            background-color: #000000!important
+            border: 2px solid #000000!important
+    
+ 
+
+
+    
+    
+    .owl-prev
+        position: absolute
+        bottom: 48%
+        left: 80px
+        border: 1px solid #f9f9f9!important
+        border-radius: 20px
+        width: 40px
+        height: 40px
+        &::before
+            content: ""
+            width: 15px
+            height: 15px
+            position: absolute
+            transform: rotate(40deg)
+            top: 10px
+            left: 13px
+            border-bottom: 1px solid #f9f9f9 !important
+            border-left: 1px solid #f9f9f9 !important
+        
+    
+        &:hover
+            background-color: #000000!important
+            border: 2px solid #000000!important
+    
+    
+            
+
+   
+
+    
+
+    
+
+        

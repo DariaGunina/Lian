@@ -1,0 +1,75 @@
+.menu
+    display: flex
+    margin: 0
+
+    &__item 
+        list-style-type: none
+        cursor: pointer
+        margin-right: 48px
+        position: relative
+        padding: 0
+        
+       
+        
+
+        &:last-child
+            margin-right: 20px
+
+      
+    &__link
+        color: $mainTextColor
+        font-size: 14px
+        font-weight: 700
+        text-decoration: none
+        text-transform: uppercase
+        letter-spacing: 0.7px
+         
+        &:hover 
+            color: $additionalTextColor
+            position: relativ
+
+        &_active
+            color: $additionalTextColor
+            position: relative
+
+            &::before
+                content: ""
+                height: 1px
+                width: 20px
+                display: block
+                background-color: $additionalTextColor
+                position: absolute
+                top: 49%
+                left: -39px
+    &__centered
+        display: flex
+        justify-content: center
+        
+    &__bordered
+        border-bottom: 2px solid #dadadc 
+        border-top: 2px solid #dadadc 
+        padding: 20px 0
+
+        & .menu__item
+            &::before
+                content: ""
+                width: 2px
+                height: 25px
+                background-color: #dadadc
+                transform: skewX(-20deg)
+                display: block
+                position: absolute
+                top: 0
+                left: -20px
+                margin-bottom: 10px
+            &:first-child
+                &::before
+                    display: none
+
+
+   
+ 
+
+              
+
+            
