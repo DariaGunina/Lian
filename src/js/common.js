@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     $('.grid').masonry({
         itemSelector:'.grid__item',
-        gutter: 40,
+        gutter: 35,
         columnWidth: 360
     });  
 });
