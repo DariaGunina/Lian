@@ -1,0 +1,122 @@
+.post-preview
+    width: 360px
+    margin-top: 70px
+    display: flex
+    flex-direction: column
+
+    &__wrap
+        background-color: $bgColorLight
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 40px 45px
+        
+        &_hover
+            position: absolute
+            top: 0
+            bottom: 0
+            right: 0
+            left: 0
+            background-color: rgba(0, 0, 0, 0.8)
+            opacity: 0
+            transition: opacity 0.3s ease
+        
+            &:hover
+                opacity: 1
+                
+
+    &__tag
+        font-size: 13px
+        font-weight: 700
+        color: $bgColorLight
+        background-color: $additionalTextColor
+        padding: 5px 20px
+        margin-bottom: 30px
+        text-transform: uppercase
+    
+    &__title
+        font-size: 20px
+        font-weight: 700
+        color: $textDark
+        text-decoration: none
+        margin-bottom: 15px
+    
+        &_light
+            color: $textLight
+    
+    &__text
+        font-size: 14px
+        font-weight: 400
+        line-height: 1.5
+        margin: 0
+        margin-bottom: 45px
+
+        &_light
+            color: $textLight
+    
+    
+    &__author
+        color: #cccccc
+        font-size: 13px
+        font-weight: 400
+        margin-bottom: 40px 
+        
+        &_light
+            color: $textLight
+      
+    .fa-user
+        color: #cccccc
+        font-size: 13px
+        font-weight: 700
+        padding-right: 5px
+    
+    &__block
+        display: flex
+
+    &__date
+        color: #cccccc
+        font-size: 13px
+        font-weight: 400
+        justify-content: space-around
+        align-items: center
+        padding-right: 110px
+      
+    .fa-calendar
+        color: #cccccc
+        font-size: 13px
+        font-weight: 700
+        padding-right: 5px
+        
+    .fa-share-alt
+        color: #cccccc
+        font-size: 13px
+        font-weight: 700
+        padding-right: 20px
+        
+    .fa-heart
+        color: #cccccc
+        font-size: 13px
+        font-weight: 700
+        padding-right: 5px
+    
+    &__image
+        width: 100%
+        height: 250px
+        object-fit: cover
+        
+        &_big
+            height: 330px
+           
+
+
+    &__interactive
+        position: relative
+    
+       
+        
+    
+
+
+
+        
+        
