@@ -11,6 +11,12 @@ $(document).ready(function(){
         gutter: 35,
         columnWidth: 360
     });  
+
+    $('.latest__preview').masonry({
+        itemSelector:'.post-preview',
+        gutter: 35,
+        columnWidth: 360
+    }); 
 });
 
     
