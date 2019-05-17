@@ -825,5 +825,118 @@ body {
     font-size: 14px;
     font-weight: 300;
     text-decoration: none;
-    margin: 30px 0 30px 0;
+    margin: 20px 0 25px 0;
     line-height: 2.5; }
+
+.form__headline {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5.7px;
+  margin-bottom: 25px; }
+
+.form__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+
+.form__slaider {
+  width: 550px;
+  width: calc(100%-4px);
+  height: 12px;
+  background-color: #ebebeb;
+  position: relative; }
+
+.form__line {
+  height: 2px;
+  background-color: #a1a1a1;
+  position: absolute;
+  top: 5px;
+  left: 4px; }
+
+.form__circle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #000000;
+  border-radius: 40px; }
+
+.form__banner {
+  width: 40px;
+  height: 20px;
+  background-color: #000000;
+  position: absolute;
+  bottom: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 3px 10px 3px 10px; }
+
+.form__banner:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border-top: 5px solid #000000;
+  border-left: 5px solid #000000;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent; }
+
+.info__title {
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5.7px;
+  margin-top: 95px;
+  margin-bottom: 40px;
+  text-align: center; }
+
+.info__text {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 2;
+  text-align: center;
+  width: 585px;
+  margin: 0 auto; }
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .description__generalization {
+    width: 360px;
+    margin-top: 70px; }
+  .description__images {
+    width: 360px;
+    height: 440px;
+    display: block; }
+  .description__name {
+    background-color: #ffffff;
+    padding: 40px 35px; }
+  .description__title {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .description__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777; }
+  .description__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777; }
